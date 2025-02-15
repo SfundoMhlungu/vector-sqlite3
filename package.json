@@ -1,0 +1,20 @@
+{
+  "name": "sqlitevector",
+  "version": "0.0.1",
+  "description": "",
+  "main": "./src/index.js",
+  "type": "module",
+  "files": [
+    "lib/"
+  ],
+  "scripts": {
+    "build": "ncc build ./src/index.js -o dist && node -e \"require('fs').cpSync('src/binary', 'dist/binary', { recursive: true })\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.13.4",
+    "@vercel/ncc": "^0.38.3"
+  }
+}
