@@ -1,5 +1,5 @@
 {
-  "name": "sqlitevector",
+  "name": "sqlite-vector",
   "version": "0.0.1",
   "description": "",
   "main": "./src/index.js",
