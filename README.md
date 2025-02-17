@@ -19,7 +19,7 @@ Vector search can be lightning fast when you combine the efficiency of TypedArra
 Install via npm:
 
 ```bash
-npm install sqlite-vector
+npm install vector-sqlite3
 ```
 
 > **Note for Windows Users:** The DLL is bundled with the package. For other platforms, feel free to fork the [C plugin code](https://github.com/SfundoMhlungu/sqlite_vector/tree/main) and build it for your system.
@@ -34,7 +34,7 @@ Below is a quick-start guide to get you up and running. This example uses [bette
 
 ```js
 import Database from 'better-sqlite3';
-import sqlitevector from 'sqlitevector';
+import sqlitevector from 'vector-sqlite3';
 
 // Open your database (make sure to use the correct path)
 const db = new Database('path/to/your/embedblob.db');
