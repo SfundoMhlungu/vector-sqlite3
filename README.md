@@ -22,7 +22,7 @@ Install via npm:
 npm install sqlite-vector
 ```
 
-> **Note for Windows Users:** The DLL is bundled with the package. For other platforms, feel free to fork the [C plugin code]() and build it for your system.
+> **Note for Windows Users:** The DLL is bundled with the package. For other platforms, feel free to fork the [C plugin code](https://github.com/SfundoMhlungu/sqlite_vector/tree/main) and build it for your system.
 
 ---
 
@@ -102,7 +102,7 @@ These functions allow you to compute vector similarities and distances directly 
 
 ## Contributing
 
-Contributions, bug reports, and feature requests are welcome! Feel free to fork the repository and submit a pull request with your improvements.
+Contributions, bug reports, **build realeases for other platforms** and feature requests are welcome! Feel free to fork the repository and submit a pull request with your improvements.
 
 ---
 
@@ -111,9 +111,3 @@ Contributions, bug reports, and feature requests are welcome! Feel free to fork 
 This project is licensed under the MIT License.
 
 ---
-
-## Final Thoughts
-
-With **sqlite-vector**, integrating vector search into your Node.js projects has never been easier. It’s fast, flexible, and designed to work seamlessly with your existing SQLite setup. So go ahead—experiment, build, and let your ideas take flight!
-
-Happy coding! 🚀
