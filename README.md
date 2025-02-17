@@ -1,15 +1,15 @@
-# sqlite-vector
+# vector-sqlite3
 
 npm package for integrating high-performance vector similarity functions into your SQLite databases. Whether you're building chatbots, recommendation engines, or any app that crunches embeddings, this tool makes vector search fast and easy.
 
 ---
 
-## Why sqlite-vector?
+## Why vector-sqlite3?
 
 Vector search can be lightning fast when you combine the efficiency of TypedArrays with the power of native C++ code. With **sqlite-vector**, you get:
 
 - **Blazing performance:** Use optimized functions like `cosine_similarity`, `l2_distance`, and `dot_product` directly in SQLite.
-- **Flexibility:** Choose native C++ functions via DLL (especially handy on Windows) or stick with pure JavaScript.
+- **Flexibility:** Choose native C++ functions via DLL (on Windows) or stick with pure JavaScript which is even faster because of typed arrays and low overheard.
 - **Easy integration:** Plug it into your existing SQLite projects with minimal fuss.
 
 ---
